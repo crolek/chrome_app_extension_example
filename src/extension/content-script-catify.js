@@ -15,4 +15,12 @@ chrome.runtime.onMessage.addListener(function(message, sender){
     if (message.catify) {
         catify()
     }
-})
+});
+
+//because dsmjs.com needs cats :)
+if (window.location.host === "dsmjs.com") {
+    document.querySelector(".header-title img").setAttribute("src", "chrome-extension://" + extensionId + "/images/buddy-sleep.jpg")
+}
+
+
+console.log("Content script loaded on this domain");

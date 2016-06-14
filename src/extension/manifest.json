@@ -14,19 +14,13 @@
     "128": "images/buddy-128.png"
   },
   "permissions": [
-    "tabs",
-    "https://localhost/",
-    "http://.sourceallies.com/"
+    "tabs"
   ],
   "externally_connectable": {
-    "ids": ["mfnpjdefoieghfkdilkaninlealillfa"],
-    "matches": [
-      "http://localhost/*",
-      "*://sourceallies.com/*"
-    ]
+    "ids": ["mfnpjdefoieghfkdilkaninlealillfa"]
   },
   "content_scripts": [{
-    "matches": ["*://www.sourceallies.com/*"],
+    "matches": ["*://www.sourceallies.com/*", "*://dsmjs.com/*"],
     "js": ["content-script-catify.js"]
   }],
   "web_accessible_resources": [

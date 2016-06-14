@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "App Example",
+  "description": "Sample Chrome App",
   "version": "1.0.0",
   "icons": {
     "38": "images/stewie-38.png",
@@ -12,10 +13,6 @@
     }
   },
   "externally_connectable": {
-    "ids": ["hpeobgpcooikgohlmdjflcengankgehf"],
-    "matches": [
-      "http://localhost/*",
-      "*://sourceallies.com/*"
-    ]
+    "ids": ["hpeobgpcooikgohlmdjflcengankgehf"]
   }
 }
