@@ -15,4 +15,4 @@
 * [Chrome Store Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard)
 
 ##Catify
-Just an FYI this repo was created for [dsmjs.com](http://dsmjs.com) and the sponsor was [Source Allies](http://www.sourceallies.com/), so their website was the one that got Catified.
+Just an FYI this repo was created for [dsmjs.com](http://dsmjs.com) and the sponsor was [Pillar Technology](http://www.pillartechnology.com//), so their website was the one that got Catified.

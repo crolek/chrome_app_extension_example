@@ -1,5 +1,5 @@
 var appId = "mfnpjdefoieghfkdilkaninlealillfa";
-var urlToTarget = "*://www.sourceallies.com/*";
+var urlToTarget = "*://pillartechnology.com/*";
 
 
 function sendToContentScript(message) {

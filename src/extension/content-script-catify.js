@@ -2,10 +2,8 @@ var extensionId = "hpeobgpcooikgohlmdjflcengankgehf";
 
 
 function catify() {
-    //hero
-    document.querySelector("#layer_slider_1").innerHTML = "<img src='chrome-extension://" + extensionId + "/images/buddy-sleep.jpg' style='width: 100%; height: 100%' />";
-    //logo
-    document.querySelector("#header_main").querySelector("img").setAttribute("src", "chrome-extension://" + extensionId + "/images/cat-allies.png")
+    //Squigglify
+    document.querySelector(".video-block").innerHTML = '<img src="chrome-extension://hpeobgpcooikgohlmdjflcengankgehf/images/buddy-sleep.jpg" style="width: 100%; height: 100%"><div id="people-wrapper"> <div class="call-action"> <p>Where cuteness meets amazing technology</p> <a href="http://info.pillartechnology.com/connect" alt="Contact Us"> <button class="call-action-button">TECHNOLOGY</button> </a> </div> </div>';
 }
 
 
